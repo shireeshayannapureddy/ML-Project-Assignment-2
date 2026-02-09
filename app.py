@@ -48,7 +48,7 @@ model_name = st.sidebar.selectbox(
 
 # ---------------- FILE UPLOAD ----------------
 uploaded_file = st.file_uploader(
-    "Upload Heart Dataset (CSV - Test Data Only)",
+    "Upload Heart Dataset (CSV)",
     type=["csv"]
 )
 
@@ -143,3 +143,4 @@ if uploaded_file is not None:
 
 else:
     st.info("Please upload a CSV file to start prediction.")
+
