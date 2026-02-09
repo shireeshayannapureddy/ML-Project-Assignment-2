@@ -75,7 +75,7 @@ All models were evaluated using the following metrics:
 ## g. Streamlit Application
 
 A Streamlit web application was developed to deploy the trained models with the following features:
-- CSV dataset upload (test data only)
+- CSV dataset upload
 - Model selection dropdown
 - Display of evaluation metrics
 - Classification report
